@@ -5,7 +5,7 @@ eureka:
     fetch-registry:
       value: true;
     service-url:
-      defaultZone: http://3.0.100.17:8761/eureka
+      defaultZone: http://13.213.59.19:8761/eureka
     instance:
       hostname: aws-host
 
