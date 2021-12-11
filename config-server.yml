@@ -5,8 +5,7 @@ eureka:
     fetch-registry:
       value: true
     service-url:
-      defaultZone: http://52.221.242.180:8761/eureka
+      defaultZone: http://localhost:8761/eureka
   instance:
-    data-center-info:
-      datacenter: Amazon
+    hostname: localhost
 
