@@ -7,5 +7,6 @@ eureka:
     service-url:
       defaultZone: http://52.221.242.180:8761/eureka
   instance:
-    hostname: aws-host
+    data-center-info:
+      datacenter: Amazon
 
