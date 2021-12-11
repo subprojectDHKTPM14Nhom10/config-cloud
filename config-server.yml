@@ -1,11 +1,11 @@
 eureka:
   client:
     register-with-eureka:
-      value: true
+      value: false;
     fetch-registry:
-      value: true;
+      value: false;
     service-url:
       defaultZone: http://52.221.242.180:8761/eureka
     instance:
-      hostname: localhost
+      hostname: awt-host
 
